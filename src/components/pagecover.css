@@ -1,0 +1,12 @@
+.book-cover-animation {
+    animation: bookAppear 5s ease forwards;
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+}
+
+@keyframes bookAppear {
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
